@@ -1,6 +1,6 @@
 # RC Wire Delay Simulator
 
-A full-stack VLSI interconnect modeling tool that calculates signal propagation delay through a wire using the **Elmore delay model**. It allows users to analyze how physical wire dimensions and material properties impact circuit speed.
+The RC Wire Delay Simulator is a full-stack tool that calculates signal propagation delay through a wire using the **Elmore delay model**. It allows users to analyze how physical wire dimensions and material properties impact circuit speed.
 
 ---
 
@@ -20,7 +20,8 @@ Code frontend running:
 ---
 
 ## 🎯 About the Project
-The RC Wire Delay Simulator bridges circuit theory and physical layout parameters. By modeling wires as distributed RC networks (using an RC ladder approach), it gives accurate insights into signal degradation and propagation delay in modern integrated circuits.
+The RC Wire Delay Simulator is a full-stack tool that calculates signal propagation delay through a wire using the Elmore delay model. 
+It allows users to analyze how physical wire dimensions and material properties impact circuit speed.
 
 ---
 
@@ -28,12 +29,12 @@ The RC Wire Delay Simulator bridges circuit theory and physical layout parameter
 
 ### Inputs
 * **Wire Dimensions:** Length, width, and thickness (in microns).
-* **Material Properties:** Resistivity, relative dielectric constant, and oxide thickness.
-* **Circuit Parameters:** Driver resistance and the number of split segments for the RC ladder.
+* **Material Properties:** Material Resistivity (Ohm-micron), relative dielectric constant, and Dielectric Height (microns).
+* **Circuit Parameters:** Driver Resistance (Ohms) and the number of split segments for the RC ladder.
 
 ### Outputs
-* **Core Metrics:** Total wire resistance ($\Omega$), total capacitance ($fF$), and the final Elmore delay ($ps$). *(Note: units rendered plainly as ohms, femtofarads, and picoseconds for readability)*
-* **Segment Breakdown:** A node-by-node list showing the delay progression across each individual segment of the wire.
+* **Core Metrics:** Total wire resistance (ohm), total capacitance (femtofarads), and the final Elmore delay (picoseconds).
+* **Segment Breakdown:**A node-by-node list showing the delay progression across each individual segment of the wire.
 
 ---
 
