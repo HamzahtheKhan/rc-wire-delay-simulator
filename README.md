@@ -34,7 +34,7 @@ It allows users to analyze how physical wire dimensions and material properties 
 
 ### Outputs
 * **Core Metrics:** Total wire resistance (ohm), total capacitance (femtofarads), and the final Elmore delay (picoseconds).
-* **Segment Breakdown:**A node-by-node list showing the delay progression across each individual segment of the wire.
+* **Segment Breakdown:** A node-by-node list showing the delay progression across each individual segment of the wire.
 
 ---
 
